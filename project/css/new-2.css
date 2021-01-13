@@ -1,7 +1,7 @@
 html {
     font-family: sans-serif;
     font-size: 62.5%;
-    -webkit-tap-highlight-color: rgba(100, 65green, 0blue, 0alpha);
+    -webkit-tap-highlight-color: rgba(100, 65, 0, 0);
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
@@ -13,7 +13,7 @@ body {
     color: #333;
     background-color: #fff;
 }
-footer
+footer,
 nav {
     display: block;
 }
@@ -27,7 +27,7 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     color: #e91c1c;
-    text-shadow: 2px 2px 3px rgba(0red, 0green, 0blue, 0.5alpha);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
 }
 h1::after {
     display: block;
@@ -114,7 +114,7 @@ section {
     z-index: 100;
 }
 #home {
-    background: url(../pics/thumbnail_8.jpg) no-repeat 50% 50%;
+    background: url(../planets.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     background-size: cover;
     width: 100%;
@@ -126,7 +126,7 @@ section {
 
 }
 .head-main {
-    text-shadow: 2px 4px 5px rgba(0red, 0green, 0blue, 0.9alpha);
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
     font-variant: small-caps;
     color: #fff;
     letter-spacing: 5pt;
@@ -154,14 +154,14 @@ section {
     padding: 5px;
 }
 .flex-container {
-    display: -website-flex;
+    display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 8px;
     margin: 0px auto;
-    background-color: rgba(100, 65green, 0blue, .3alpha);
-    box-shadow: 2px 2px 10px  rgba(0red, 0green, 0blue, 0.5alpha);
+    background-color: rgba(100, 65, 0, .3);
+    box-shadow: 2px 2px 10px  rgba(0, 0, 0, 0.5);
 }
 #contact {
     background-color: #f5f3f3;
@@ -172,7 +172,7 @@ section {
     border-radius: 8px;
     margin: 0px auto ;
     background-color: rgba(100, 65, 0, .3);
-    box-shadow: -1px -1px 1px 0 rgba(0red, 0green, 0blue, 0.1alpha), 1px 2px 10px 0 rgba(0red, 0green, 0blue, 0.5alpha) ;
+    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 0.1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5) ;
 }
 .reservation h2 {
     width: 70%;
@@ -211,10 +211,10 @@ section {
     margin: 2% auto;
     border-radius: 7px;
     background: rgb(227red, 222green, 222blue);
-    box-shadow: 2px 3px 3px 0px rgba(0red, 0green, 0blue, 0.3alpha);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
     font-family: 'Raleway', sans-serif;
 }
-.reservation imput[type="text"] {
+.reservation input[type="text"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -226,14 +226,14 @@ section {
     border-bottom: 2px solid #424549;
     border-left: 1px solid #090b0d;
     margin: 10px 1em;
-    border-radius: 7%;
+    border-radius: 7px;
     background: #13161b;
-    box-shadow: inset 0px 3px 0px 0px rgba(5red, 5green, 5blue, 0.15alpha);
+    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation imput[type="text"]:hover {
-    box-shadow: 0 0 18px rgba(100red, 65green, 0blue, 0.8alpha) ;
+.reservation input[type="text"]:hover {
+    box-shadow: 0 0 18px rgba(100, 65, 0, 0.8) ;
 }
 .form-spacer {
     padding: 30px 39px;
@@ -257,8 +257,8 @@ float: right;
     text-decoration: underline;
 }
 
-.submit imput[type="submit"] {
-    color: rgb(225red, 225green, 225blue);
+.submit input[type="submit"] {
+    color: rgb(225, 225, 225);
     cursor: pointer;
     border: none;
     font-weight: 900;
@@ -269,21 +269,21 @@ float: right;
     padding: 7px 0px;
     width: 25%;
     font-size: 18px;
-    transition: border-color 0.3s color 0.3s background-color 0.3s;
+    transition: border-color 0.3s color, 0.3s background-color 0.3s;
     border-radius: 7px;
     background-color: #797a7b;
-    box-shadow: 1px 1px 4px 0 (0red, 0green, 0blue, 0.3alpha);
+    box-shadow: 1px 1px 4px 0 (0, 0, 0, 0.3);
 }
 .submit input[type="submit"]:hover {
     color: #000;
     background-color: #8d8e8f;
-    box-shadow: inset 1px 2px 15px 0 rgba(0red, 0green, 0blue, 0.5alpha);
+    box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
 #footer {
-    background-color: rgba(100red, 65green, 0blue, .3alpha);
+    background-color: rgba(100, 65, 0, .3);
     color: #000;
-    text-shadow: 2px 2px 8px 0 rgba(0red, 0green, 0blue, 0.4alpha);
+    text-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.4);
     padding: 20px 50px 20px 50px;
     text-align: right;
 
