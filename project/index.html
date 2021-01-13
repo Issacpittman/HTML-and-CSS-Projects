@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <time>Kid Cudi Fan Website </time>  
+      <time>Kid Cudi Fan Website </time>
+      <link rel="stylesheet" href="./css/new-2.css">
+      <link rel="stylesheet" href="./css/animations.css"> 
     </head>
     <body>
         <!--NAV-->
-        <div>
-            <div>
-                <ol>
-                    <a href="#home" id=link><li>HOME</li></a>
+        <div class="wrap">
+            <div class="menu-container">
+                <ul class="menu">
+                    <a href="#home"><li>HOME</li></a>
                      <a href="#gallery"><li>GALLERY</li></a>
                     <a href="#contact"><li>RESERVATIONS</li></a>
-                </ol>
+                </ul>
             </div>
         </div>
         <!--End NAV-->
         <!--Home-->
         <div id="home">
-            <div>
-                <div>
-                    <span>HOWDY DUDIE!! Welcome Hommmmmmmmmmmmmme...</span>
+            <div class="container">
+                <div class="text-center">
+                    <span class="head-main">HOWDY</span>
                 </div>
             </div>
         </div>
   <!--End Home-->
   <!--Gallery-->
-  <section>
-      <div>
+  <section id="gallery">
+      <div class="container">
           <h1>Gallery</h1>
-          <div id="gallery">
+          <div class="flex-container">
               <!--Photo container1-->
-              <div>
-                <div>
-                    <img src="thumbnail_1.jpg" alt="MOTM3">
-                <div>
+              <div class="photo-container">
+                <div class="photo">
+                    <img src="pics/thumbnail_1.jpg" alt="MOTM3">
+                <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>
                         Special information reguarding the site.
@@ -43,10 +45,10 @@
               </div>
               <!--End Photo Container-->
               <!--Photo container2-->
-              <div>
-                <div>
+              <div class="photo-container">
+                <div class="photo">
                     <img src="pics/thumbnail_2.jpg" alt="Kids see Ghosts performance">
-                <div>
+                <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>
                         Special information reguarding the site.
@@ -56,10 +58,10 @@
               </div>
               <!--End Photo Container-->
               <!--Photo container3-->
-              <div>
-                <div>
+              <div class="photo-container">
+                <div class="photo">
                     <img src="pics/thumbnail_3.jpg" alt="Kids see Ghosts cartoon">
-                <div>
+                <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>
                         Special information reguarding the site.
@@ -69,10 +71,10 @@
               </div>
               <!--End Photo Container-->
               <!--Photo container4-->
-              <div>
-                <div>
+              <div class="photo-container">
+                <div class="photo">
                     <img src="pics/thumbnail_4.jpg" alt="Kids see Ghosts settinng">
-                <div>
+                <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>
                         Special information reguarding the site.
@@ -82,10 +84,10 @@
               </div>
               <!--End Photo Container-->
               <!--Photo container5-->
-              <div>
-                <div>
+              <div class="photo-container">
+                <div class="photo">
                     <img src="pics/thumbnail_5.jpg" alt="80s style profile pic">
-                <div>
+                <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>
                         Special information reguarding the site.
@@ -95,10 +97,10 @@
               </div>
               <!--End Photo Container-->
               <!--Photo container6-->
-              <div>
-                <div>
+              <div class="photo-container">
+                <div class="photo">
                     <img src="pics/thumbnail_6.jpg" alt="CUDI portrat">
-                <div>
+                <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>
                         Special information reguarding the site.
@@ -108,10 +110,10 @@
               </div>
               <!--End Photo Container-->
               <!--Photo container7-->
-              <div>
-                <div>
+              <div class="photo-container">
+                <div class="photo">
                     <img src="pics/thumbnail_7.jpg" alt="MOTM2">
-                <div>
+                <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>
                         Special information reguarding the site.
@@ -121,10 +123,10 @@
               </div>
               <!--End Photo Container-->
               <!--Photo container8-->
-              <div>
-                <div>
+              <div class="photo-container">
+                <div class="photo">
                     <img src="pics/thumbnail_8.jpg" alt="Pyrimid MOTM3">
-                <div>
+                <div class="photo-overlay">
                     <h3>Click to Enlarge</h3>
                     <p>
                         Special information reguarding the site.
@@ -134,10 +136,10 @@
               </div>
               <!--End Photo Container-->
               <!--Photo container9-->
-              <div>
-                <div>
+              <div class="photo-container">
+                <div class="photo">
                     <img src="pics/thumbnail_9.jpg" alt="Cudi's blow up hit">
-                    <div>
+                    <div class="photo-overlay">
                         <h3>Click to Enlarge</h3>
                         <p>
                             Special information reguarding the site.
@@ -151,27 +153,27 @@
   </section>
   <!--END gallery-->
   <!--RSVP-->
-  <section>
-      <div id="contact">
-          <div>
-              <h1>Reservations</h1>
-              <div>
-                  <h2><span> Information regaurding what the reservations for</span>
-                    <br /> More Resi Information
+  <section id="contact">
+          <div class="container">
+              <div class="heading-padding">
+                <h1 class="heading-padding">Reservations</h1>
+                <div class="reservation">
+                  <h2><span> Become part of the fan club</span>
+                    <br/> learn about meet ups.
                 </h2>
-                <p>
+                <p class="rsvp-text">
                     Please provide us with your basic contact information.
                 </p>
-                <div>
+                <div class="form-rsvp">
                     <form action="" method="post">
-                        <imput class="rsvp" type="text" value="First Name">
-                        <imput class="rsvp" type="text" value="Last Name">
-                        <imput class="rsvp" type="text" value="Email Address">
-                        <imput class="rsvp" type="text" value="Phone Number"> 
+                        <imput class="rsvp" type="text" value="" placeholder="First Name">
+                        <imput class="rsvp" type="text" value="" placeholder="Last Name">
+                        <imput class="rsvp" type="text" value="" placeholder="Email Address">
+                        <imput class="rsvp" type="text" value="" placeholder="Phone Number"> 
                         <div class="form-spacer">
                             <label class="terms">Terms and Conditions</label>
                         </div> 
-                        <div>
+                        <div class="submit">
                             <imput type="submit" value="Submit">
                         </div> 
                      </form>     
@@ -183,7 +185,7 @@
   <!--END RSVP-->
   <!--FOOTER-->
   <div>
-      Profesional info, copyright, certifications
+      Profesional info | copyrights | certifications
   </div>
   <!--End Footer-->
     </body>
